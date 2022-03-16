@@ -11,8 +11,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
         rel="stylesheet">
 
+    <link rel="stylesheet" href="./assets/styles/nav.css">
     <link rel="stylesheet" href="./assets/styles/style.css">
     <link rel="stylesheet" href="./assets/styles/icons.css">
+
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="./assets/scripts/nav.js"></script>
 
     <link rel="shortcut icon" type="imagex/png" href="./assets/icons/cd_ico.ico">
 
@@ -31,9 +37,29 @@
 
 <body>
 
-
-
     <input type="checkbox" id="ativar-dark" class="ativar-dark">
+    <!-- barra de navegação -->
+    <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Home</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#palestras">Palestras</a>
+        <a href="#integrantes">Integrantes</a>
+
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+
+        <a style = "width: 54px; height: 54px; float: right; margin-right: 1rem;" href="https://github.com/Code-Queens-UFS" target="_blank">
+            <img src="./assets/icons/github-icon.svg" alt="Github">
+        </a>
+        <a style = "width: 54px; height: 54px; float: right;" href="https://www.instagram.com/code.queens/" target="_blank">
+            <img src="./assets/icons/instagram-icon.svg" alt="Instagram">
+        </a>
+        <a style = "width: 54px; height: 54px; float: right; " href="https://www.youtube.com/channel/UCJ1o6qvMUF_W2cmeFBkYYbQ" target="_blank">
+            <img src="./assets/icons/youtube-icon.svg" alt="Youtube">
+        </a>
+    </div>
+
     <div class="dark-mode">
         <!-- CABEÇALHO -->
         <header>
@@ -105,7 +131,7 @@
                     <!-- CONTEÚDO LADO ESQUERDO -->
                     <div class="coluna coluna-esquerda">
 
-                        <section>
+                        <section id="sobre">
                             <span class="topo-direita"></span>
                             <h2>SOBRE NÓS</h2>
                             <p>
@@ -157,7 +183,7 @@
                     <!-- CONTEÚDO LADO DIREITA -->
                     <div class="coluna coluna-direita">
 
-                        <section>
+                        <section id="palestras">
                             <span class="topo-direita"></span>
                             <h2>NOSSAS PALESTRAS</h2>
                             <ul>
@@ -192,7 +218,7 @@
                             <span class="baixo-esquerda"></span>
                         </section>
 
-                        <section>
+                        <section id="integrantes">
                             <span class="topo-direita"></span>
                             <h2>INTEGRANTES</h2>
                             <ul>
@@ -226,7 +252,7 @@
         </main>
 
         <footer>
-            <div class="container">
+            <div id="CONTATO" class="container">
 
                 <nav>
                     <ul class="info-contato">
@@ -263,7 +289,15 @@
                         </li>
                     </ul>
                 </nav>
+               
             </div>
+
+            <footer style="background-color:#1d1338;padding:0px; margin:0px">
+                <p style="margin:0px;padding-top:15px;text-align:center;padding-bottom:15px;color:white !important"> 
+                Code Queens - 2022
+                </p>
+            </footer>
+
         </footer>
     </div>
 
