@@ -51,8 +51,6 @@ body {
 }
 
 
-
-
 /* HEADER */
 header {
     background-color: var(--corBackgroundPrimaria);
@@ -71,7 +69,7 @@ header .linha {
 
 header .coluna-esquerda {
     flex-basis: 50%;
-    padding-left: 70px;
+    padding-left: 50px;
     padding-top: 100px;
 }
 
