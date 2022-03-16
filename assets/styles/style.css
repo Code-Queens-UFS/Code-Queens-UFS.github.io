@@ -191,6 +191,12 @@ main .coluna section ul li strong {
     display: inline-block;
 }
 
+main.lightwidget-widget{
+width:100%;
+border:0;
+overflow:hidden;
+}
+
 
 /* EXTRAS */
 .ativar-dark {
@@ -373,6 +379,12 @@ label span {
         text-align: center;
         display: initial;
     }
+
+    .lightwidget-widget{
+    width:100%;
+    border:0;
+    overflow:hidden;
+}
 
 }
 
