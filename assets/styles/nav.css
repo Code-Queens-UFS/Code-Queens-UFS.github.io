@@ -1,3 +1,11 @@
+  html {
+  scroll-behavior: smooth;
+}
+ 
+:target {
+  scroll-margin-top: .8em;
+}
+ 
  /* Add a black background color to the top navigation */
 .topnav {
   background-color: rgb(24, 20, 29);
@@ -56,3 +64,13 @@
     text-align: left;
   }
 } 
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+ 
+:target {
+  scroll-margin-top: .8em;
+}
