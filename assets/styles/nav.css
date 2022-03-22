@@ -10,7 +10,11 @@
 .topnav {
   background-color: rgb(24, 20, 29);
   overflow: hidden;
- 
+
+  position: sticky;
+  top: 0px;
+
+  z-index: 1;
 }
 
 /* Style the links inside the navigation bar */
@@ -39,7 +43,10 @@
 /* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
   display: none;
+
 } 
+
+
 
  /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {

@@ -1,19 +1,12 @@
-    icons-social{
-    position:fixed;
-    
-    width: 35px;
-    height: 145px;
-    left: 38px;
-    top: 123px;
-
-   }
+   
+   
 
    #img-codequeens{
     position: fixed;
     width: 48px;
     height: 49.09px;
     left: 37px;
-    top: 12px;
+    top: 62px;
         
    }
 
@@ -22,7 +15,7 @@
     width: 32px;
     height: 35px;
     left: 44px;
-    top: 83px;
+    top: 133px;
 
    }
    #img-youtube{
@@ -30,22 +23,28 @@
     width: 33px;
     height: 33px;
     left: 44px;
-    top: 118px;
+    top: 168px;
    }
    #img-git{
     position:fixed;
     width: 30px;
     height: 30px;
     left: 46px;
-    top: 157px;
-    
-    
+    top: 207px;
    }
 
    .lilas-fundo{
     position: fixed;
     width: 48px;
     height: 210px;
-    left: 37px;
-    top: 0px;
+    left: 35px;
+    top: 50px;
+   }
+
+   @media screen and (max-width:600px){
+       .lilas-fundo,#img-instagram,#img-git,#img-youtube,#img-instagram,#img-codequeens{
+           display: none;
+       }
+   
+       
    }
