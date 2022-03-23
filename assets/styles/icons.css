@@ -1,13 +1,9 @@
-   
-   
-
-   #img-codequeens{
+    #img-codequeens{
     position: fixed;
     width: 48px;
     height: 49.09px;
     left: 37px;
-    top: 62px;
-        
+    top: 62px;    
    }
 
    #img-instagram{
@@ -16,8 +12,8 @@
     height: 35px;
     left: 44px;
     top: 133px;
-
    }
+
    #img-youtube{
     position:fixed;
     width: 33px;
@@ -25,6 +21,7 @@
     left: 44px;
     top: 168px;
    }
+
    #img-git{
     position:fixed;
     width: 30px;
@@ -41,10 +38,12 @@
     top: 50px;
    }
 
+   
+
    @media screen and (max-width:600px){
        .lilas-fundo,#img-instagram,#img-git,#img-youtube,#img-instagram,#img-codequeens{
            display: none;
-       }
+    }
    
        
    }
