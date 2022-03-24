@@ -1,49 +1,50 @@
-    #img-codequeens{
-    position: fixed;
-    width: 48px;
-    height: 49.09px;
-    left: 37px;
-    top: 62px;    
-   }
+#img-codequeens {
+  position: fixed;
+  width: 48px;
+  height: 49.09px;
+  left: 37px;
+  top: 62px;
+}
 
-   #img-instagram{
-    position:fixed;
-    width: 32px;
-    height: 35px;
-    left: 44px;
-    top: 133px;
-   }
+#img-instagram {
+  position: fixed;
+  width: 32px;
+  height: 35px;
+  left: 44px;
+  top: 133px;
+}
 
-   #img-youtube{
-    position:fixed;
-    width: 33px;
-    height: 33px;
-    left: 44px;
-    top: 168px;
-   }
+#img-youtube {
+  position: fixed;
+  width: 33px;
+  height: 33px;
+  left: 44px;
+  top: 168px;
+}
 
-   #img-git{
-    position:fixed;
-    width: 30px;
-    height: 30px;
-    left: 46px;
-    top: 207px;
-   }
+#img-git {
+  position: fixed;
+  width: 30px;
+  height: 30px;
+  left: 46px;
+  top: 207px;
+}
 
-   .lilas-fundo{
-    position: fixed;
-    width: 48px;
-    height: 210px;
-    left: 35px;
-    top: 50px;
-   }
+.lilas-fundo {
+  position: fixed;
+  width: 48px;
+  height: 210px;
+  left: 35px;
+  top: 50px;
+}
 
-   
-
-   @media screen and (max-width:600px){
-       .lilas-fundo,#img-instagram,#img-git,#img-youtube,#img-instagram,#img-codequeens{
-           display: none;
-    }
-   
-       
-   }
+@media screen and (max-width: 600px) {
+  .lilas-fundo,
+  #img-instagram,
+  #img-git,
+  #img-youtube,
+  #img-instagram,
+  #img-codequeens {
+    display: none;
+  }
+}
