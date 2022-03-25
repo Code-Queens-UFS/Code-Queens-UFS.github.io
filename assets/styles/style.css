@@ -69,10 +69,10 @@ header .coluna-esquerda {
   padding-top: 100px;
 }
 
-header .coluna-direita {
-  flex-basis: 60%;
-  text-align: end;
-}
+/* header .coluna-direita { */
+    /* flex-basis: 50%; */
+    /* text-align: end; */
+/* } */
 
 header .coluna-esquerda h1 {
   font-family: "Dancing Script", cursive;
