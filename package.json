@@ -1,0 +1,24 @@
+{
+  "name": "code-queens-ufs.github.io",
+  "version": "1.0.0",
+  "description": "<h2> Nosso site portfólio </h2>",
+  "main": "index.js",
+  "scripts": {
+    "dev": "",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Code-Queens-UFS/Code-Queens-UFS.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Code-Queens-UFS/Code-Queens-UFS.github.io/issues"
+  },
+  "homepage": "https://github.com/Code-Queens-UFS/Code-Queens-UFS.github.io#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "sass": "^1.49.9"
+  }
+}
