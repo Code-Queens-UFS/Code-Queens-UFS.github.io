@@ -1,3 +1,10 @@
+.icons-social{
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
 #img-codequeens {
   position: fixed;
   width: 48px;
