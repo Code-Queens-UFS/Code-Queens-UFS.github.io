@@ -8,7 +8,7 @@ html {
 
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: rgb(24, 20, 29);
+  background-color: #140c1f;
   overflow: hidden;
 
   position: sticky;
