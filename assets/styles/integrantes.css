@@ -19,9 +19,14 @@
 }
 
 .foto h4{
-    font-family: 'Poppins';
-    font-size: normal;
-    color: rgb(96, 182, 231);
+
+    color: rebeccapurple;
+}
+
+.foto-int{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
 }
 
 @media screen and (min-width: 768px){
