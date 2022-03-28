@@ -3,6 +3,7 @@
   left: 0;
   top: 0;
   z-index: 1;
+  
 }
 
 #img-codequeens {
@@ -43,6 +44,7 @@
   height: 210px;
   left: 35px;
   top: 50px;
+
 }
 
 @media screen and (max-width: 600px) {
